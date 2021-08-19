@@ -5,7 +5,7 @@ import ChatRoomItem from "../components/chatRoomItem";
 
 import chatRoomData from "../assets/dummy-data/ChatRooms";
 
-export default function TabOneScreen() {
+export default function HomeScreen() {
   return (
     <SafeAreaView>
       <View style={styles.page}>

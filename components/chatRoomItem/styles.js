@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     marginTop: 10,
-    marginLeft: 30, // delete for mobile
+
     marginBottom: 20,
   },
   row: {
@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
   },
   rightContainer: {
     // backgroundColor: "red",
-    width: 260, // delete for mobile
-    // flex:1 activate for mobile
+
+    flex: 1,
     justifyContent: "center",
   },
   image: {
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 10,
     position: "absolute",
-    left: 38,
+    //left: 38,
     top: 1,
     borderWidth: 1,
     borderColor: "white",
